@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Phone Number Converter.exe" version="1.0.0.0" publicKeyToken="798f148d4046761b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17376">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TLTzf+xUFCi2Yv67XuU0xtSgwCiaEo4Wx2uczy+Kv04=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Phone Number Converter.deps.json" size="458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kFZoTjKvWWyiiXqFXb2BKqlvZhgvq8Yol8juAThNtb8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Phone Number Converter.dll" size="11232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>u0Z5NStvm/0QNurM8RZ3/S68+BR/y9K0frcfW2qmYok=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Phone Number Converter.exe" size="148960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LUXHdQSgsPs8YdilZSOZCGkIzRVCDOE+g8iDbR90c44=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Phone Number Converter.runtimeconfig.json" size="372">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HsoPDHAHCqg7tgnkt0mybctECXhDJgMnJjlHIiJKCYo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-68G2GDI\cyber" issuerKeyHash="b07edc26ea240b1cfecd9b22cd93a8dbcdf8195d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rIAS8dZ+gRGMjuSXlLxSfkqMh7JtLvyF68PT0hs+Prc=</DigestValue></Reference></SignedInfo><SignatureValue>fSGBw2ecXWk2oEdjLTgJ5MQvOrnSO4kpv7CXHs/utxSVmF35sH+BgxqwN69MGyU8M3xbS2tuSUxYx3MJ7oRS7lHrwxYm8AVzIvlnk0iR4AxQrJXtLCkCwy1hAgpnTmmwF8rxw1lmKiIL89xQLpmhu+1+mGmATmRztnK1vPd26pw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tVSD8me6nwUI+VM9JeZp1TIB+xxd6TvBxILdWnRIOC3/uE6NLGfuJaj/Ohn7u8sJkrI66AQ5DWUJcp5nsn0sc81C5aanuay2Y7oIU1U1BKM8ju7uGXEIBIIDPAMeN2VjF5L/jdDx6KsJaEUWsFH90Z+1u7fIvxTfJEleKtlwOm0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b73e3e1bd2d3c3eb85fc2e6db2878c4a7e52bc9497e48e8c11817ed6f11280ac" Description="" Url=""><as:assemblyIdentity name="Phone Number Converter.exe" version="1.0.0.0" publicKeyToken="798f148d4046761b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-68G2GDI\cyber</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EReVMFJ6uQVl/wMg79w6jvZX0rSKvNujV+ktcxzZy/c=</DigestValue></Reference></SignedInfo><SignatureValue>h1/JQBdIRz8CgTnzN0Amkw6Ez2mDiKKGcxJYIAI2GwhN/aJrup1eo+1FpEEX4/kVIxioXLh7Oo72Q491eSi8reHQK+6Bnrg3aUAUTPgo+rH4qdzUj8gXylnwGwhjYJQnYVkBZZ37SqfeyWqD8HJAiSUw2+OZr/YQmpF907vY71s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tVSD8me6nwUI+VM9JeZp1TIB+xxd6TvBxILdWnRIOC3/uE6NLGfuJaj/Ohn7u8sJkrI66AQ5DWUJcp5nsn0sc81C5aanuay2Y7oIU1U1BKM8ju7uGXEIBIIDPAMeN2VjF5L/jdDx6KsJaEUWsFH90Z+1u7fIvxTfJEleKtlwOm0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQEdwut7KB56pHzh2ZFRuqUDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYAOABHADIARwBEAEkAXABjAHkAYgBlAHIwHhcNMjMwNTE2MTgxMDE2WhcNMjQwNTE2MDAxMDE2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYAOABHADIARwBEAEkAXABjAHkAYgBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALVUg/Jnup8FCPlTPSXmadUyAfscXek7wcSC3Vp0SDgt/7hOjSxn7iWo/zoZ+7vLCZKyOugEOQ1lCXKeZ7J9LHPNQuWmp7mstmO6CFNVNQSjPI7u7hlxCASCAzwDHjdlYxeS/43Q8eirCWhFFrBR/dGftbu3yL8U3yRJXirZcDptAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAK0aWSzGwUjOcG3IDvDbOymuY2UTZ0mfKLWRW6XO66RG/23RFvZCn5jLvuEWDbGJKeEml9LyqjczhYljhmKb/GcSEiGKmXtT7xhq2ubb5WQsch2uMJVWnBQX0eYIsSKz7kOw01bs7QOkWTqeeCrGGF8B4kXJYkLqvR/XRCzFhJLc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
